@@ -1,0 +1,6 @@
+---
+- name: localhost
+  become: yes
+  become_method: sudo
+  roles:
+    - packages
